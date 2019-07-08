@@ -6,6 +6,9 @@
 - MVC
 - Sequelize
 - Postbird
+- JWT
+- Bcrypt
+- MD5Online
 
 -eslint
 `yarn eslint --fix src --ext .js`
