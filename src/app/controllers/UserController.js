@@ -34,13 +34,16 @@ class UserController {
   }
 
   async show(req, res) {
-    const { id, name, email, provider } = await User.findAll();
+    const user = await User.findAll().map(u => ({
+      name: u.name,
+      email: u.email,
+      createdAt: u.createdAt,
+      updatedAt: u.updatedAt,
+      provider: u.provider,
+    }));
 
     return res.json({
-      id,
-      name,
-      email,
-      provider,
+      user,
     });
   }
 
