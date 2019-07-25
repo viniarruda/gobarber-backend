@@ -19,6 +19,12 @@
 
 `docker start database`
 
+`docker run --name mongobarber -p 27017:27017 -d -t mongo`
+
+`docker ps` // All Docker containers run
+
+`docker ps -a` // All Docker containers
+
 ### Sequelize
 
 `yarn sequelize db:migrate`
