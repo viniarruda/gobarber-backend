@@ -33,9 +33,7 @@
 
 `yarn sequelize db:migrate:undo:all` // All migrations
 
-
-
-
 ### Helpers
-https://docs.nestjs.com/recipes/cqrs
-https://medium.com/laraveltips/voc%C3%AA-entende-repository-pattern-voc%C3%AA-est%C3%A1-certo-disso-d739ecaf544e
+
+- [Api pattern](https://docs.nestjs.com/recipes/cqrs)
+- [Api pattern](https://medium.com/laraveltips/voc%C3%AA-entende-repository-pattern-voc%C3%AA-est%C3%A1-certo-disso-d739ecaf544e)
