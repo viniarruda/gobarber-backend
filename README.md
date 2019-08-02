@@ -9,7 +9,10 @@
 - JWT
 - Bcrypt
 - MD5Online
+- Nodemailer
 - Mailtrap
+- Redis for queue
+- Beequeue
 
 -eslint
 `yarn eslint --fix src --ext .js`
@@ -21,6 +24,8 @@
 `docker start database`
 
 `docker run --name mongobarber -p 27017:27017 -d -t mongo`
+
+`docker run --name redisbarber -p 6379:6379 -d -t redis:alpine`
 
 `docker ps` // All Docker containers run
 
@@ -52,3 +57,7 @@
 	"provider": true
 }
 ```
+
+### NOTES
+
+Separe queue because is better to run in other instance
