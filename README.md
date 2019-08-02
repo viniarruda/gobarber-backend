@@ -9,6 +9,7 @@
 - JWT
 - Bcrypt
 - MD5Online
+- Mailtrap
 
 -eslint
 `yarn eslint --fix src --ext .js`
@@ -37,3 +38,17 @@
 
 - [Api pattern](https://docs.nestjs.com/recipes/cqrs)
 - [Api pattern](https://medium.com/laraveltips/voc%C3%AA-entende-repository-pattern-voc%C3%AA-est%C3%A1-certo-disso-d739ecaf544e)
+
+```
+{
+	"name": "Customer",
+	"email": "customer@email.com",
+	"password": "test123"
+},
+{
+	"name": "Professional",
+	"email": "professional@email.com",
+	"password": "test123",
+	"provider": true
+}
+```
