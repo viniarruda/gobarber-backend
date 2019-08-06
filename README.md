@@ -13,6 +13,8 @@
 - Mailtrap
 - Redis for queue
 - Beequeue
+- [Sentry](https://sentry.io) for errors
+- Youch
 
 -eslint
 `yarn eslint --fix src --ext .js`
